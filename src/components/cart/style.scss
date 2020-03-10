@@ -1,0 +1,60 @@
+.cart>{
+  .main{
+    position: fixed;
+    top: 1.333rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 1.412rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .cart_list{
+      ul{
+        li{
+          padding: 0.333rem 0;
+          border-bottom: 0.277rem solid #f5f5f5;
+          display: flex;
+          position: relative;
+          img{
+            width: 2.448rem;
+            height: 2.448rem;
+            border: 0.026rem solid #ccc;
+          }
+          .product_text{
+            width: 5.002rem;
+            margin-left: .3rem;
+            p:nth-child(1){
+              height: 1rem;
+            }
+            p:nth-child(2){
+              font-size: 0.333rem;
+              color: #999;
+              span{
+                margin-left: 0.3rem;
+              }
+            }
+          }
+          .delete{
+            position: absolute;
+            right: .5rem;
+            bottom: .5rem;
+          }
+        }
+      }
+    }
+    .pay_btn{
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 1.412rem;
+      z-index: 99;
+      display: flex;
+      p{
+        flex: 1;
+        text-align: center;
+        line-height: 1.412rem;
+      }
+    }
+  }
+}

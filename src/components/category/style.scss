@@ -1,0 +1,59 @@
+.category>{
+  .main{
+    position: fixed;
+    top: 1.333rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    .aside_nav{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 1.412rem;
+      width: 2.502rem;
+      overflow-y: auto;
+      overflow-x: hidden;
+      ul{
+        li{
+          margin: .8rem 0;
+          text-align: center;
+          .ant-anchor-link{
+            padding: 0;
+          }
+        }
+      }
+    }
+    .main_list{
+      position: absolute;
+      top: 0;
+      left: 2.502rem;
+      right: 0;
+      bottom: 0;
+      padding-bottom: 14rem;
+      padding-right: .4rem;
+      overflow-y: auto;
+      overflow-x: hidden;
+      h3{
+        line-height: 2rem;
+      }
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        li{
+          width: 33.33%;
+          figure{
+            text-align: center;
+            figcaption{
+              font-size: .3rem;
+              line-height: 1rem;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+        }
+      }
+    }
+  }
+}
