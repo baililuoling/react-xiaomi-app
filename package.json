@@ -8,7 +8,7 @@
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "antd": "^3.26.12",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "customize-cra": "^0.9.1",
     "http-proxy-middleware": "^1.0.1",
     "node-sass": "^4.13.1",
